@@ -662,8 +662,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 5350 5200 5350
 Wire Wire Line
-	5100 5250 5200 5250
-Wire Wire Line
 	5100 5050 5200 5050
 Wire Wire Line
 	5100 4950 5200 4950
@@ -1068,26 +1066,6 @@ F 11 "Maxim Integrated" H 14150 8800 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 14150 8900 60  0001 L CNN "Status"
 	1    13950 7700
 	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:640456-2 J3
-U 1 1 61674BE8
-P 1900 5100
-F 0 "J3" V 1675 5108 50  0000 C CNN
-F 1 "640456-2" V 1766 5108 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 2100 5300 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 2100 5400 60  0001 L CNN
-F 4 "A1921-ND" H 2100 5500 60  0001 L CNN "Digi-Key_PN"
-F 5 "640456-2" H 2100 5600 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 2100 5700 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 2100 5800 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 2100 5900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-2/A1921-ND/109003" H 2100 6000 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 2POS 2.54MM" H 2100 6100 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 2100 6200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2100 6300 60  0001 L CNN "Status"
-	1    1900 5100
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2600 5100 2350 5100
@@ -2128,14 +2106,8 @@ Text Label 2350 5400 0    50   ~ 0
 SWD
 Wire Wire Line
 	2350 5400 2350 5200
-Connection ~ 2350 5200
-Wire Wire Line
-	2350 5200 2000 5200
 Wire Wire Line
 	2350 5100 2350 4950
-Connection ~ 2350 5100
-Wire Wire Line
-	2350 5100 2000 5100
 Text Notes 5250 1650 0    50   ~ 0
 Make sure C6 is close to pin 44 of RP2040\n
 Text Notes 6250 2350 0    50   ~ 0
@@ -2144,4 +2116,55 @@ Text Notes 2350 2050 2    50   ~ 0
 Make sure C3 is close to pin 45 of the RP2040
 Text Notes 800  6950 0    98   ~ 0
 Flash
+Text Label 5950 5250 0    50   ~ 0
+MIC_OUT
+Wire Wire Line
+	5100 5250 5950 5250
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 61FC5AD2
+P 1300 5200
+F 0 "J?" H 1218 4775 50  0000 C CNN
+F 1 "Conn_01x04" H 1218 4866 50  0000 C CNN
+F 2 "" H 1300 5200 50  0001 C CNN
+F 3 "~" H 1300 5200 50  0001 C CNN
+	1    1300 5200
+	-1   0    0    1   
+$EndComp
+Connection ~ 2350 5100
+Wire Wire Line
+	1500 5100 2350 5100
+Wire Wire Line
+	2350 5200 1500 5200
+Connection ~ 2350 5200
+Wire Wire Line
+	1500 5300 1650 5300
+$Comp
+L power:GND #PWR?
+U 1 1 6212D0E2
+P 1650 5850
+F 0 "#PWR?" H 1650 5600 50  0001 C CNN
+F 1 "GND" H 1655 5677 50  0000 C CNN
+F 2 "" H 1650 5850 50  0001 C CNN
+F 3 "" H 1650 5850 50  0001 C CNN
+	1    1650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5300 1650 5850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62158E3F
+P 1850 4800
+F 0 "#PWR?" H 1850 4650 50  0001 C CNN
+F 1 "+3V3" H 1865 4973 50  0000 C CNN
+F 2 "" H 1850 4800 50  0001 C CNN
+F 3 "" H 1850 4800 50  0001 C CNN
+	1    1850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4800 1850 5000
+Wire Wire Line
+	1850 5000 1500 5000
 $EndSCHEMATC
