@@ -726,345 +726,59 @@ QSPI_SD0
 Text Label 2300 2600 0    50   ~ 0
 QSPI_SS
 $Comp
-L Device:LED D1
-U 1 1 61584A0A
-P 14550 1300
-F 0 "D1" H 14543 1045 50  0000 C CNN
-F 1 "LED" H 14543 1136 50  0000 C CNN
-F 2 "" H 14550 1300 50  0001 C CNN
-F 3 "~" H 14550 1300 50  0001 C CNN
-	1    14550 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 61585D4D
-P 14550 1800
-F 0 "D2" H 14543 1545 50  0000 C CNN
-F 1 "LED" H 14543 1636 50  0000 C CNN
-F 2 "" H 14550 1800 50  0001 C CNN
-F 3 "~" H 14550 1800 50  0001 C CNN
-	1    14550 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 6158665D
-P 14550 2300
-F 0 "D3" H 14543 2045 50  0000 C CNN
-F 1 "LED" H 14543 2136 50  0000 C CNN
-F 2 "" H 14550 2300 50  0001 C CNN
-F 3 "~" H 14550 2300 50  0001 C CNN
-	1    14550 2300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D4
-U 1 1 61586B95
-P 14550 2800
-F 0 "D4" H 14543 2545 50  0000 C CNN
-F 1 "LED" H 14543 2636 50  0000 C CNN
-F 2 "" H 14550 2800 50  0001 C CNN
-F 3 "~" H 14550 2800 50  0001 C CNN
-	1    14550 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 61587061
-P 14550 3250
-F 0 "D5" H 14543 2995 50  0000 C CNN
-F 1 "LED" H 14543 3086 50  0000 C CNN
-F 2 "" H 14550 3250 50  0001 C CNN
-F 3 "~" H 14550 3250 50  0001 C CNN
-	1    14550 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D6
-U 1 1 61587545
-P 14550 3700
-F 0 "D6" H 14543 3445 50  0000 C CNN
-F 1 "LED" H 14543 3536 50  0000 C CNN
-F 2 "" H 14550 3700 50  0001 C CNN
-F 3 "~" H 14550 3700 50  0001 C CNN
-	1    14550 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D7
-U 1 1 61587A41
-P 14550 4150
-F 0 "D7" H 14543 3895 50  0000 C CNN
-F 1 "LED" H 14543 3986 50  0000 C CNN
-F 2 "" H 14550 4150 50  0001 C CNN
-F 3 "~" H 14550 4150 50  0001 C CNN
-	1    14550 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D8
-U 1 1 61587F55
-P 14550 4600
-F 0 "D8" H 14543 4345 50  0000 C CNN
-F 1 "LED" H 14543 4436 50  0000 C CNN
-F 2 "" H 14550 4600 50  0001 C CNN
-F 3 "~" H 14550 4600 50  0001 C CNN
-	1    14550 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D9
-U 1 1 61588481
-P 14550 5050
-F 0 "D9" H 14543 4795 50  0000 C CNN
-F 1 "LED" H 14543 4886 50  0000 C CNN
-F 2 "" H 14550 5050 50  0001 C CNN
-F 3 "~" H 14550 5050 50  0001 C CNN
-	1    14550 5050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 6158C47D
-P 15200 1300
-F 0 "R3" V 14993 1300 50  0000 C CNN
-F 1 "330" V 15084 1300 50  0000 C CNN
-F 2 "" V 15130 1300 50  0001 C CNN
-F 3 "~" H 15200 1300 50  0001 C CNN
-	1    15200 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 6158CBB5
-P 15200 1750
-F 0 "R4" V 14993 1750 50  0000 C CNN
-F 1 "330" V 15084 1750 50  0000 C CNN
-F 2 "" V 15130 1750 50  0001 C CNN
-F 3 "~" H 15200 1750 50  0001 C CNN
-	1    15200 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 6158D1F9
-P 15200 2300
-F 0 "R5" V 14993 2300 50  0000 C CNN
-F 1 "330" V 15084 2300 50  0000 C CNN
-F 2 "" V 15130 2300 50  0001 C CNN
-F 3 "~" H 15200 2300 50  0001 C CNN
-	1    15200 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 6158D7BF
-P 15200 2800
-F 0 "R6" V 14993 2800 50  0000 C CNN
-F 1 "330" V 15084 2800 50  0000 C CNN
-F 2 "" V 15130 2800 50  0001 C CNN
-F 3 "~" H 15200 2800 50  0001 C CNN
-	1    15200 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 6158DC3F
-P 15200 3250
-F 0 "R7" V 14993 3250 50  0000 C CNN
-F 1 "330" V 15084 3250 50  0000 C CNN
-F 2 "" V 15130 3250 50  0001 C CNN
-F 3 "~" H 15200 3250 50  0001 C CNN
-	1    15200 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 6158DF9E
-P 15200 3700
-F 0 "R8" V 14993 3700 50  0000 C CNN
-F 1 "330" V 15084 3700 50  0000 C CNN
-F 2 "" V 15130 3700 50  0001 C CNN
-F 3 "~" H 15200 3700 50  0001 C CNN
-	1    15200 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 6158E391
-P 15200 4150
-F 0 "R9" V 14993 4150 50  0000 C CNN
-F 1 "330" V 15084 4150 50  0000 C CNN
-F 2 "" V 15130 4150 50  0001 C CNN
-F 3 "~" H 15200 4150 50  0001 C CNN
-	1    15200 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 6158E717
-P 15200 4600
-F 0 "R10" V 14993 4600 50  0000 C CNN
-F 1 "330" V 15084 4600 50  0000 C CNN
-F 2 "" V 15130 4600 50  0001 C CNN
-F 3 "~" H 15200 4600 50  0001 C CNN
-	1    15200 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 6158EAAC
-P 15200 5050
-F 0 "R11" V 14993 5050 50  0000 C CNN
-F 1 "330" V 15084 5050 50  0000 C CNN
-F 2 "" V 15130 5050 50  0001 C CNN
-F 3 "~" H 15200 5050 50  0001 C CNN
-	1    15200 5050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14700 1300 15050 1300
-Wire Wire Line
-	14700 1800 15000 1800
-Wire Wire Line
-	15000 1800 15000 1750
-Wire Wire Line
-	15000 1750 15050 1750
-Wire Wire Line
-	14700 2300 15050 2300
-Wire Wire Line
-	14700 2800 15050 2800
-Wire Wire Line
-	14700 3250 15050 3250
-Wire Wire Line
-	14700 3700 15050 3700
-Wire Wire Line
-	14700 4150 15050 4150
-Wire Wire Line
-	14700 4600 15050 4600
-Wire Wire Line
-	14700 5050 15050 5050
-$Comp
 L power:GND #PWR01
 U 1 1 615C665A
-P 15850 5400
-F 0 "#PWR01" H 15850 5150 50  0001 C CNN
-F 1 "GND" H 15855 5227 50  0000 C CNN
-F 2 "" H 15850 5400 50  0001 C CNN
-F 3 "" H 15850 5400 50  0001 C CNN
-	1    15850 5400
+P 13000 6400
+F 0 "#PWR01" H 13000 6150 50  0001 C CNN
+F 1 "GND" H 13005 6227 50  0000 C CNN
+F 2 "" H 13000 6400 50  0001 C CNN
+F 3 "" H 13000 6400 50  0001 C CNN
+	1    13000 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15350 1300 15850 1300
-Wire Wire Line
-	15850 1300 15850 1750
-Wire Wire Line
-	15350 1750 15850 1750
-Connection ~ 15850 1750
-Wire Wire Line
-	15850 1750 15850 2300
-Wire Wire Line
-	15350 2300 15850 2300
-Connection ~ 15850 2300
-Wire Wire Line
-	15850 2300 15850 2800
-Wire Wire Line
-	15350 2800 15850 2800
-Connection ~ 15850 2800
-Wire Wire Line
-	15850 2800 15850 3250
-Wire Wire Line
-	15350 3250 15850 3250
-Connection ~ 15850 3250
-Wire Wire Line
-	15850 3250 15850 3700
-Wire Wire Line
-	15350 3700 15850 3700
-Connection ~ 15850 3700
-Wire Wire Line
-	15850 3700 15850 4150
-Wire Wire Line
-	15350 4150 15850 4150
-Connection ~ 15850 4150
-Wire Wire Line
-	15850 4150 15850 4600
-Wire Wire Line
-	15350 4600 15850 4600
-Connection ~ 15850 4600
-Wire Wire Line
-	15850 4600 15850 5050
-Wire Wire Line
-	15350 5050 15850 5050
-Connection ~ 15850 5050
-Wire Wire Line
-	15850 5050 15850 5400
-Text Label 13300 1300 0    50   ~ 0
-GPIO0
-Text Label 13300 1800 0    50   ~ 0
-GPIO1
-Text Label 13300 2300 0    50   ~ 0
+Text Label 13100 2000 0    50   ~ 0
 GPIO2
-Text Label 13300 2800 0    50   ~ 0
+Text Label 13100 2500 0    50   ~ 0
 GPIO3
-Text Label 13300 3250 0    50   ~ 0
+Text Label 13100 3000 0    50   ~ 0
 GPIO4
-Text Label 13300 3700 0    50   ~ 0
+Text Label 13100 3500 0    50   ~ 0
 GPIO5
-Text Label 13300 4150 0    50   ~ 0
+Text Label 13100 4000 0    50   ~ 0
 GPIO6
-Text Label 13300 4600 0    50   ~ 0
+Text Label 13100 4500 0    50   ~ 0
 GPIO7
-Text Label 13300 5050 0    50   ~ 0
+Text Label 13100 5000 0    50   ~ 0
 GPIO8
-Wire Wire Line
-	14400 1300 13300 1300
-Wire Wire Line
-	14400 1800 13300 1800
-Wire Wire Line
-	14400 2300 13300 2300
-Wire Wire Line
-	13300 2800 14400 2800
-Wire Wire Line
-	14400 3250 13300 3250
-Wire Wire Line
-	14400 3700 13300 3700
-Wire Wire Line
-	14400 4150 13300 4150
-Wire Wire Line
-	14400 4600 13300 4600
-Wire Wire Line
-	14400 5050 13300 5050
 $Comp
 L Device:Microphone_Condenser MK1
 U 1 1 6166EA47
-P 11750 8300
-F 0 "MK1" H 11880 8346 50  0000 L CNN
-F 1 "Microphone_Condenser" H 11880 8255 50  0000 L CNN
-F 2 "" V 11750 8400 50  0001 C CNN
-F 3 "~" V 11750 8400 50  0001 C CNN
-	1    11750 8300
+P 11450 8600
+F 0 "MK1" H 11580 8646 50  0000 L CNN
+F 1 "Microphone_Condenser" H 11580 8555 50  0000 L CNN
+F 2 "" V 11450 8700 50  0001 C CNN
+F 3 "~" V 11450 8700 50  0001 C CNN
+	1    11450 8600
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Linear-Amplifiers-Audio:MAX4466EXK_T U4
 U 1 1 61670837
-P 13950 7700
-F 0 "U4" H 14294 7753 60  0000 L CNN
-F 1 "MAX4466EXK_T" H 14294 7647 60  0000 L CNN
-F 2 "digikey-footprints:SOT-353" H 14150 7900 60  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4465-MAX4469.pdf" H 14150 8000 60  0001 L CNN
-F 4 "MAX4466EXK+CT-ND" H 14150 8100 60  0001 L CNN "Digi-Key_PN"
-F 5 "MAX4466EXK+T" H 14150 8200 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 14150 8300 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Audio" H 14150 8400 60  0001 L CNN "Family"
-F 8 "https://datasheets.maximintegrated.com/en/ds/MAX4465-MAX4469.pdf" H 14150 8500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/maxim-integrated/MAX4466EXK-T/MAX4466EXK-CT-ND/5405773" H 14150 8600 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC PREAMP AUDIO MONO AB SC70-5" H 14150 8700 60  0001 L CNN "Description"
-F 11 "Maxim Integrated" H 14150 8800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 14150 8900 60  0001 L CNN "Status"
-	1    13950 7700
+P 13650 8000
+F 0 "U4" H 13994 8053 60  0000 L CNN
+F 1 "MAX4466EXK_T" H 13994 7947 60  0000 L CNN
+F 2 "digikey-footprints:SOT-353" H 13850 8200 60  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4465-MAX4469.pdf" H 13850 8300 60  0001 L CNN
+F 4 "MAX4466EXK+CT-ND" H 13850 8400 60  0001 L CNN "Digi-Key_PN"
+F 5 "MAX4466EXK+T" H 13850 8500 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 13850 8600 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Audio" H 13850 8700 60  0001 L CNN "Family"
+F 8 "https://datasheets.maximintegrated.com/en/ds/MAX4465-MAX4469.pdf" H 13850 8800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/maxim-integrated/MAX4466EXK-T/MAX4466EXK-CT-ND/5405773" H 13850 8900 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC PREAMP AUDIO MONO AB SC70-5" H 13850 9000 60  0001 L CNN "Description"
+F 11 "Maxim Integrated" H 13850 9100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 13850 9200 60  0001 L CNN "Status"
+	1    13650 8000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1228,206 +942,206 @@ QSPI_SS
 $Comp
 L power:GND #PWR07
 U 1 1 61786A3F
-P 11750 8850
-F 0 "#PWR07" H 11750 8600 50  0001 C CNN
-F 1 "GND" H 11755 8677 50  0000 C CNN
-F 2 "" H 11750 8850 50  0001 C CNN
-F 3 "" H 11750 8850 50  0001 C CNN
-	1    11750 8850
+P 11450 9150
+F 0 "#PWR07" H 11450 8900 50  0001 C CNN
+F 1 "GND" H 11455 8977 50  0000 C CNN
+F 2 "" H 11450 9150 50  0001 C CNN
+F 3 "" H 11450 9150 50  0001 C CNN
+	1    11450 9150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R14
 U 1 1 617873A8
-P 12250 6400
-F 0 "R14" H 12320 6446 50  0000 L CNN
-F 1 "1k" H 12320 6355 50  0000 L CNN
-F 2 "" V 12180 6400 50  0001 C CNN
-F 3 "~" H 12250 6400 50  0001 C CNN
-	1    12250 6400
+P 11950 6700
+F 0 "R14" H 12020 6746 50  0000 L CNN
+F 1 "1k" H 12020 6655 50  0000 L CNN
+F 2 "" V 11880 6700 50  0001 C CNN
+F 3 "~" H 11950 6700 50  0001 C CNN
+	1    11950 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R15
 U 1 1 6178893F
-P 11750 7150
-F 0 "R15" H 11820 7196 50  0000 L CNN
-F 1 "1k" H 11820 7105 50  0000 L CNN
-F 2 "" V 11680 7150 50  0001 C CNN
-F 3 "~" H 11750 7150 50  0001 C CNN
-	1    11750 7150
+P 11450 7450
+F 0 "R15" H 11520 7496 50  0000 L CNN
+F 1 "1k" H 11520 7405 50  0000 L CNN
+F 2 "" V 11380 7450 50  0001 C CNN
+F 3 "~" H 11450 7450 50  0001 C CNN
+	1    11450 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C16
 U 1 1 6178960A
-P 12250 6850
-F 0 "C16" H 12365 6896 50  0000 L CNN
-F 1 "100n" H 12365 6805 50  0000 L CNN
-F 2 "" H 12288 6700 50  0001 C CNN
-F 3 "~" H 12250 6850 50  0001 C CNN
-	1    12250 6850
+P 11950 7150
+F 0 "C16" H 12065 7196 50  0000 L CNN
+F 1 "100n" H 12065 7105 50  0000 L CNN
+F 2 "" H 11988 7000 50  0001 C CNN
+F 3 "~" H 11950 7150 50  0001 C CNN
+	1    11950 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 6178A9AF
-P 12250 7100
-F 0 "#PWR08" H 12250 6850 50  0001 C CNN
-F 1 "GND" H 12255 6927 50  0000 C CNN
-F 2 "" H 12250 7100 50  0001 C CNN
-F 3 "" H 12250 7100 50  0001 C CNN
-	1    12250 7100
+P 11950 7400
+F 0 "#PWR08" H 11950 7150 50  0001 C CNN
+F 1 "GND" H 11955 7227 50  0000 C CNN
+F 2 "" H 11950 7400 50  0001 C CNN
+F 3 "" H 11950 7400 50  0001 C CNN
+	1    11950 7400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 6550 12250 6650
-Connection ~ 12250 6650
+	11950 6850 11950 6950
+Connection ~ 11950 6950
 Wire Wire Line
-	12250 7000 12250 7100
+	11950 7300 11950 7400
 Wire Wire Line
-	11750 7300 11750 7800
+	11450 7600 11450 8100
 Wire Wire Line
-	11750 7800 11750 8100
+	11450 8100 11450 8400
 $Comp
 L Device:R R16
 U 1 1 617D81F5
-P 12800 7450
-F 0 "R16" H 12870 7496 50  0000 L CNN
-F 1 "1m" H 12870 7405 50  0000 L CNN
-F 2 "" V 12730 7450 50  0001 C CNN
-F 3 "~" H 12800 7450 50  0001 C CNN
-	1    12800 7450
+P 12500 7750
+F 0 "R16" H 12570 7796 50  0000 L CNN
+F 1 "1m" H 12570 7705 50  0000 L CNN
+F 2 "" V 12430 7750 50  0001 C CNN
+F 3 "~" H 12500 7750 50  0001 C CNN
+	1    12500 7750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12800 7600 12800 7800
+	12500 7900 12500 8100
 $Comp
 L Device:C C15
 U 1 1 6180C35E
-P 12250 7800
-F 0 "C15" V 11998 7800 50  0000 C CNN
-F 1 "10n" V 12089 7800 50  0000 C CNN
-F 2 "" H 12288 7650 50  0001 C CNN
-F 3 "~" H 12250 7800 50  0001 C CNN
-	1    12250 7800
+P 11950 8100
+F 0 "C15" V 11698 8100 50  0000 C CNN
+F 1 "10n" V 11789 8100 50  0000 C CNN
+F 2 "" H 11988 7950 50  0001 C CNN
+F 3 "~" H 11950 8100 50  0001 C CNN
+	1    11950 8100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11750 7800 12100 7800
-Connection ~ 11750 7800
+	11450 8100 11800 8100
+Connection ~ 11450 8100
 Wire Wire Line
-	12400 7800 12800 7800
-Connection ~ 12800 7800
+	12100 8100 12500 8100
+Connection ~ 12500 8100
 $Comp
 L power:+3V3 #PWR012
 U 1 1 6185216A
-P 13950 7000
-F 0 "#PWR012" H 13950 6850 50  0001 C CNN
-F 1 "+3V3" H 13965 7173 50  0000 C CNN
-F 2 "" H 13950 7000 50  0001 C CNN
-F 3 "" H 13950 7000 50  0001 C CNN
-	1    13950 7000
+P 13650 7300
+F 0 "#PWR012" H 13650 7150 50  0001 C CNN
+F 1 "+3V3" H 13665 7473 50  0000 C CNN
+F 2 "" H 13650 7300 50  0001 C CNN
+F 3 "" H 13650 7300 50  0001 C CNN
+	1    13650 7300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12800 7800 13650 7800
+	12500 8100 13350 8100
 Wire Wire Line
-	13650 7600 13100 7600
+	13350 7900 12800 7900
 Wire Wire Line
-	13100 7600 13100 8750
+	12800 7900 12800 9050
 $Comp
 L Device:R R18
 U 1 1 618E9895
-P 12800 8750
-F 0 "R18" V 13007 8750 50  0000 C CNN
-F 1 "1k" V 12916 8750 50  0000 C CNN
-F 2 "" V 12730 8750 50  0001 C CNN
-F 3 "~" H 12800 8750 50  0001 C CNN
-	1    12800 8750
+P 12500 9050
+F 0 "R18" V 12707 9050 50  0000 C CNN
+F 1 "1k" V 12616 9050 50  0000 C CNN
+F 2 "" V 12430 9050 50  0001 C CNN
+F 3 "~" H 12500 9050 50  0001 C CNN
+	1    12500 9050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R19
 U 1 1 618EA53F
-P 13550 8750
-F 0 "R19" V 13343 8750 50  0000 C CNN
-F 1 "22k" V 13434 8750 50  0000 C CNN
-F 2 "" V 13480 8750 50  0001 C CNN
-F 3 "~" H 13550 8750 50  0001 C CNN
-	1    13550 8750
+P 13250 9050
+F 0 "R19" V 13043 9050 50  0000 C CNN
+F 1 "22k" V 13134 9050 50  0000 C CNN
+F 2 "" V 13180 9050 50  0001 C CNN
+F 3 "~" H 13250 9050 50  0001 C CNN
+	1    13250 9050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C17
 U 1 1 618EB4DB
-P 12500 9000
-F 0 "C17" H 12615 9046 50  0000 L CNN
-F 1 "10u" H 12615 8955 50  0000 L CNN
-F 2 "" H 12538 8850 50  0001 C CNN
-F 3 "~" H 12500 9000 50  0001 C CNN
-	1    12500 9000
+P 12200 9300
+F 0 "C17" H 12315 9346 50  0000 L CNN
+F 1 "10u" H 12315 9255 50  0000 L CNN
+F 2 "" H 12238 9150 50  0001 C CNN
+F 3 "~" H 12200 9300 50  0001 C CNN
+	1    12200 9300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR011
 U 1 1 618EC1D8
-P 12500 9250
-F 0 "#PWR011" H 12500 9000 50  0001 C CNN
-F 1 "GND" H 12505 9077 50  0000 C CNN
-F 2 "" H 12500 9250 50  0001 C CNN
-F 3 "" H 12500 9250 50  0001 C CNN
-	1    12500 9250
+P 12200 9550
+F 0 "#PWR011" H 12200 9300 50  0001 C CNN
+F 1 "GND" H 12205 9377 50  0000 C CNN
+F 2 "" H 12200 9550 50  0001 C CNN
+F 3 "" H 12200 9550 50  0001 C CNN
+	1    12200 9550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13100 8750 12950 8750
+	12800 9050 12650 9050
 Wire Wire Line
-	12650 8750 12500 8750
+	12350 9050 12200 9050
 Wire Wire Line
-	12500 8750 12500 8850
+	12200 9050 12200 9150
 Wire Wire Line
-	12500 9150 12500 9250
+	12200 9450 12200 9550
 $Comp
 L Device:C C18
 U 1 1 61918469
-P 13550 9150
-F 0 "C18" V 13298 9150 50  0000 C CNN
-F 1 "100p" V 13389 9150 50  0000 C CNN
-F 2 "" H 13588 9000 50  0001 C CNN
-F 3 "~" H 13550 9150 50  0001 C CNN
-	1    13550 9150
+P 13250 9450
+F 0 "C18" V 12998 9450 50  0000 C CNN
+F 1 "100p" V 13089 9450 50  0000 C CNN
+F 2 "" H 13288 9300 50  0001 C CNN
+F 3 "~" H 13250 9450 50  0001 C CNN
+	1    13250 9450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	13100 8750 13400 8750
-Connection ~ 13100 8750
+	12800 9050 13100 9050
+Connection ~ 12800 9050
 Wire Wire Line
-	13100 8750 13100 9150
+	12800 9050 12800 9450
 Wire Wire Line
-	13100 9150 13400 9150
+	12800 9450 13100 9450
 Wire Wire Line
-	14500 7700 14250 7700
+	14200 8000 13950 8000
 Wire Wire Line
-	13700 9150 14000 9150
+	13400 9450 13700 9450
 Wire Wire Line
-	14500 7700 15150 7700
-Connection ~ 14500 7700
-Text Label 15150 7700 0    50   ~ 0
+	14200 8000 14850 8000
+Connection ~ 14200 8000
+Text Label 14850 8000 0    50   ~ 0
 MIC_OUT
 $Comp
 L power:GND #PWR013
 U 1 1 61963A33
-P 13950 8050
-F 0 "#PWR013" H 13950 7800 50  0001 C CNN
-F 1 "GND" H 13955 7877 50  0000 C CNN
-F 2 "" H 13950 8050 50  0001 C CNN
-F 3 "" H 13950 8050 50  0001 C CNN
-	1    13950 8050
+P 13650 8350
+F 0 "#PWR013" H 13650 8100 50  0001 C CNN
+F 1 "GND" H 13655 8177 50  0000 C CNN
+F 2 "" H 13650 8350 50  0001 C CNN
+F 3 "" H 13650 8350 50  0001 C CNN
+	1    13650 8350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13950 7000 13950 7500
+	13650 7300 13650 7800
 $Comp
 L power:GND #PWR014
 U 1 1 61985678
@@ -1515,30 +1229,30 @@ Connection ~ 700  4400
 $Comp
 L Device:R_POT RV1
 U 1 1 61A2FDBB
-P 14000 8750
-F 0 "RV1" V 13793 8750 50  0000 C CNN
-F 1 "R_POT" V 13884 8750 50  0000 C CNN
-F 2 "" H 14000 8750 50  0001 C CNN
-F 3 "~" H 14000 8750 50  0001 C CNN
-	1    14000 8750
+P 13700 9050
+F 0 "RV1" V 13493 9050 50  0000 C CNN
+F 1 "R_POT" V 13584 9050 50  0000 C CNN
+F 2 "" H 13700 9050 50  0001 C CNN
+F 3 "~" H 13700 9050 50  0001 C CNN
+	1    13700 9050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	14500 7700 14500 8750
+	14200 8000 14200 9050
 Wire Wire Line
-	13700 8750 13850 8750
+	13400 9050 13550 9050
 Wire Wire Line
-	14150 8750 14500 8750
-Connection ~ 14500 8750
+	13850 9050 14200 9050
+Connection ~ 14200 9050
 Wire Wire Line
-	14500 8750 14500 9150
+	14200 9050 14200 9450
 Wire Wire Line
-	14000 8900 14000 9150
-Connection ~ 14000 9150
+	13700 9200 13700 9450
+Connection ~ 13700 9450
 Wire Wire Line
-	14000 9150 14500 9150
+	13700 9450 14200 9450
 Wire Wire Line
-	13950 7900 13950 8050
+	13650 8200 13650 8350
 $Comp
 L Connector_Generic:Conn_02x18_Odd_Even J4
 U 1 1 61ABDCBD
@@ -1613,29 +1327,29 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR022
 U 1 1 61B38674
-P 12250 6100
-F 0 "#PWR022" H 12250 5950 50  0001 C CNN
-F 1 "+3V3" H 12265 6273 50  0000 C CNN
-F 2 "" H 12250 6100 50  0001 C CNN
-F 3 "" H 12250 6100 50  0001 C CNN
-	1    12250 6100
+P 11950 6400
+F 0 "#PWR022" H 11950 6250 50  0001 C CNN
+F 1 "+3V3" H 11965 6573 50  0000 C CNN
+F 2 "" H 11950 6400 50  0001 C CNN
+F 3 "" H 11950 6400 50  0001 C CNN
+	1    11950 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 6100 12250 6250
+	11950 6400 11950 6550
 $Comp
 L power:+3V3 #PWR023
 U 1 1 61B4BF85
-P 12800 7200
-F 0 "#PWR023" H 12800 7050 50  0001 C CNN
-F 1 "+3V3" H 12815 7373 50  0000 C CNN
-F 2 "" H 12800 7200 50  0001 C CNN
-F 3 "" H 12800 7200 50  0001 C CNN
-	1    12800 7200
+P 12500 7500
+F 0 "#PWR023" H 12500 7350 50  0001 C CNN
+F 1 "+3V3" H 12515 7673 50  0000 C CNN
+F 2 "" H 12500 7500 50  0001 C CNN
+F 3 "" H 12500 7500 50  0001 C CNN
+	1    12500 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12800 7200 12800 7300
+	12500 7500 12500 7600
 $Comp
 L power:+3V3 #PWR018
 U 1 1 61B5EB1A
@@ -2039,12 +1753,12 @@ Wire Wire Line
 	11000 3150 11350 3150
 Wire Wire Line
 	11350 3250 11000 3250
-Text Notes 12850 900  0    98   ~ 0
+Text Notes 12900 750  0    98   ~ 0
 LEDs\n
 Wire Notes Line
-	16050 5700 12800 5700
+	16050 6700 12800 6700
 Wire Notes Line
-	12800 5700 12800 500 
+	12800 6700 12800 500 
 Wire Notes Line
 	8200 550  8200 6550
 Wire Notes Line
@@ -2056,37 +1770,37 @@ IO headers
 $Comp
 L power:GND #PWR010
 U 1 1 61835544
-P 12800 8250
-F 0 "#PWR010" H 12800 8000 50  0001 C CNN
-F 1 "GND" H 12805 8077 50  0000 C CNN
-F 2 "" H 12800 8250 50  0001 C CNN
-F 3 "" H 12800 8250 50  0001 C CNN
-	1    12800 8250
+P 12500 8550
+F 0 "#PWR010" H 12500 8300 50  0001 C CNN
+F 1 "GND" H 12505 8377 50  0000 C CNN
+F 2 "" H 12500 8550 50  0001 C CNN
+F 3 "" H 12500 8550 50  0001 C CNN
+	1    12500 8550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12800 8200 12800 8250
+	12500 8500 12500 8550
 Wire Wire Line
-	12800 7800 12800 7900
+	12500 8100 12500 8200
 $Comp
 L Device:R R17
 U 1 1 61827567
-P 12800 8050
-F 0 "R17" H 12870 8096 50  0000 L CNN
-F 1 "1m" H 12870 8005 50  0000 L CNN
-F 2 "" V 12730 8050 50  0001 C CNN
-F 3 "~" H 12800 8050 50  0001 C CNN
-	1    12800 8050
+P 12500 8350
+F 0 "R17" H 12570 8396 50  0000 L CNN
+F 1 "1m" H 12570 8305 50  0000 L CNN
+F 2 "" V 12430 8350 50  0001 C CNN
+F 3 "~" H 12500 8350 50  0001 C CNN
+	1    12500 8350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 6650 12250 6700
+	11950 6950 11950 7000
 Wire Wire Line
-	11750 6650 11750 7000
+	11450 6950 11450 7300
 Wire Wire Line
-	11750 6650 12250 6650
+	11450 6950 11950 6950
 Wire Wire Line
-	11750 8500 11750 8850
+	11450 8800 11450 9150
 Wire Notes Line
 	8200 5050 12800 5050
 Wire Notes Line
@@ -2097,7 +1811,7 @@ Wire Notes Line
 	6350 11200 6300 11200
 Text Notes 6800 6950 0    98   ~ 0
 Power
-Text Notes 11450 5350 0    98   ~ 0
+Text Notes 11450 5900 0    98   ~ 0
 Microphone
 NoConn ~ 8050 8650
 Text Label 2350 4950 0    50   ~ 0
@@ -2121,10 +1835,10 @@ MIC_OUT
 Wire Wire Line
 	5100 5250 5950 5250
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J3
 U 1 1 61FC5AD2
 P 1300 5200
-F 0 "J?" H 1218 4775 50  0000 C CNN
+F 0 "J3" H 1218 4775 50  0000 C CNN
 F 1 "Conn_01x04" H 1218 4866 50  0000 C CNN
 F 2 "" H 1300 5200 50  0001 C CNN
 F 3 "~" H 1300 5200 50  0001 C CNN
@@ -2140,10 +1854,10 @@ Connection ~ 2350 5200
 Wire Wire Line
 	1500 5300 1650 5300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR024
 U 1 1 6212D0E2
 P 1650 5850
-F 0 "#PWR?" H 1650 5600 50  0001 C CNN
+F 0 "#PWR024" H 1650 5600 50  0001 C CNN
 F 1 "GND" H 1655 5677 50  0000 C CNN
 F 2 "" H 1650 5850 50  0001 C CNN
 F 3 "" H 1650 5850 50  0001 C CNN
@@ -2153,10 +1867,10 @@ $EndComp
 Wire Wire Line
 	1650 5300 1650 5850
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR025
 U 1 1 62158E3F
 P 1850 4800
-F 0 "#PWR?" H 1850 4650 50  0001 C CNN
+F 0 "#PWR025" H 1850 4650 50  0001 C CNN
 F 1 "+3V3" H 1865 4973 50  0000 C CNN
 F 2 "" H 1850 4800 50  0001 C CNN
 F 3 "" H 1850 4800 50  0001 C CNN
@@ -2167,4 +1881,820 @@ Wire Wire Line
 	1850 4800 1850 5000
 Wire Wire Line
 	1850 5000 1500 5000
+Wire Wire Line
+	14950 950  14850 950 
+Wire Wire Line
+	15350 950  15250 950 
+$Comp
+L Device:LED D1
+U 1 1 61584A0A
+P 15100 950
+F 0 "D1" H 15093 695 50  0000 C CNN
+F 1 "LED" H 15093 786 50  0000 C CNN
+F 2 "" H 15100 950 50  0001 C CNN
+F 3 "~" H 15100 950 50  0001 C CNN
+	1    15100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q1
+U 1 1 617C5E25
+P 14000 950
+F 0 "Q1" H 14188 1003 60  0000 L CNN
+F 1 "2N2222" H 14188 897 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 1150 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 1250 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 1350 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 1450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 1550 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 1650 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 1750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 1850 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 1950 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 2050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 2150 60  0001 L CNN "Status"
+	1    14000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR026
+U 1 1 614F72D5
+P 15350 700
+F 0 "#PWR026" H 15350 550 50  0001 C CNN
+F 1 "+3V3" H 15365 873 50  0000 C CNN
+F 2 "" H 15350 700 50  0001 C CNN
+F 3 "" H 15350 700 50  0001 C CNN
+	1    15350 700 
+	1    0    0    -1  
+$EndComp
+Text Label 13100 1450 0    50   ~ 0
+GPIO1
+Text Label 13100 950  0    50   ~ 0
+GPIO0
+$Comp
+L Device:R R3
+U 1 1 6158C47D
+P 14700 950
+F 0 "R3" V 14493 950 50  0000 C CNN
+F 1 "330" V 14584 950 50  0000 C CNN
+F 2 "" V 14630 950 50  0001 C CNN
+F 3 "~" H 14700 950 50  0001 C CNN
+	1    14700 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15350 700  15350 950 
+$Comp
+L Device:LED D2
+U 1 1 61FEACB1
+P 15100 1450
+F 0 "D2" H 15093 1195 50  0000 C CNN
+F 1 "LED" H 15093 1286 50  0000 C CNN
+F 2 "" H 15100 1450 50  0001 C CNN
+F 3 "~" H 15100 1450 50  0001 C CNN
+	1    15100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61FEB7B4
+P 14700 1450
+F 0 "R4" V 14493 1450 50  0000 C CNN
+F 1 "330" V 14584 1450 50  0000 C CNN
+F 2 "" V 14630 1450 50  0001 C CNN
+F 3 "~" H 14700 1450 50  0001 C CNN
+	1    14700 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 61FEC2D7
+P 15100 2000
+F 0 "D3" H 15093 1745 50  0000 C CNN
+F 1 "LED" H 15093 1836 50  0000 C CNN
+F 2 "" H 15100 2000 50  0001 C CNN
+F 3 "~" H 15100 2000 50  0001 C CNN
+	1    15100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 950  14550 750 
+Wire Wire Line
+	14550 750  14100 750 
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q2
+U 1 1 62077DC2
+P 14000 1450
+F 0 "Q2" H 14188 1503 60  0000 L CNN
+F 1 "2N2222" H 14188 1397 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 1650 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 1750 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 1850 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 1950 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 2050 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 2150 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 2250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 2350 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 2450 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 2550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 2650 60  0001 L CNN "Status"
+	1    14000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 62079A9D
+P 14700 2000
+F 0 "R5" V 14493 2000 50  0000 C CNN
+F 1 "330" V 14584 2000 50  0000 C CNN
+F 2 "" V 14630 2000 50  0001 C CNN
+F 3 "~" H 14700 2000 50  0001 C CNN
+	1    14700 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q3
+U 1 1 62079EB9
+P 14000 2000
+F 0 "Q3" H 14188 2053 60  0000 L CNN
+F 1 "2N2222" H 14188 1947 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 2200 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 2300 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 2400 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 2500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 2600 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 2700 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 2800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 2900 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 3000 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 3100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 3200 60  0001 L CNN "Status"
+	1    14000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q4
+U 1 1 6207A564
+P 14000 2500
+F 0 "Q4" H 14188 2553 60  0000 L CNN
+F 1 "2N2222" H 14188 2447 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 2700 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 2800 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 2900 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 3000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 3100 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 3200 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 3300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 3400 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 3500 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 3600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 3700 60  0001 L CNN "Status"
+	1    14000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6207AB5C
+P 14700 2500
+F 0 "R6" V 14493 2500 50  0000 C CNN
+F 1 "330" V 14584 2500 50  0000 C CNN
+F 2 "" V 14630 2500 50  0001 C CNN
+F 3 "~" H 14700 2500 50  0001 C CNN
+	1    14700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q5
+U 1 1 6207BEF1
+P 14000 3000
+F 0 "Q5" H 14188 3053 60  0000 L CNN
+F 1 "2N2222" H 14188 2947 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 3200 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 3300 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 3400 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 3500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 3600 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 3700 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 3800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 3900 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 4000 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 4100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 4200 60  0001 L CNN "Status"
+	1    14000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q6
+U 1 1 6207C64A
+P 14000 3500
+F 0 "Q6" H 14188 3553 60  0000 L CNN
+F 1 "2N2222" H 14188 3447 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 3700 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 3800 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 3900 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 4000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 4100 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 4200 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 4300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 4400 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 4500 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 4600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 4700 60  0001 L CNN "Status"
+	1    14000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q7
+U 1 1 6207CE53
+P 14000 4000
+F 0 "Q7" H 14188 4053 60  0000 L CNN
+F 1 "2N2222" H 14188 3947 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 4200 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 4300 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 4400 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 4500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 4600 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 4700 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 4800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 4900 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 5000 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 5100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 5200 60  0001 L CNN "Status"
+	1    14000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q8
+U 1 1 6207DD10
+P 14000 4500
+F 0 "Q8" H 14188 4553 60  0000 L CNN
+F 1 "2N2222" H 14188 4447 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 4700 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 4800 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 4900 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 5000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 5100 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 5200 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 5300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 5400 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 5500 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 5600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 5700 60  0001 L CNN "Status"
+	1    14000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q9
+U 1 1 6207E3D3
+P 14000 5000
+F 0 "Q9" H 14188 5053 60  0000 L CNN
+F 1 "2N2222" H 14188 4947 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 5200 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 5300 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 5400 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 5500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 5600 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 5700 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 5800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 5900 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 6000 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 6100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 6200 60  0001 L CNN "Status"
+	1    14000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q10
+U 1 1 6207E9B6
+P 14000 5500
+F 0 "Q10" H 14188 5553 60  0000 L CNN
+F 1 "2N2222" H 14188 5447 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 5700 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 5800 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 5900 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 6000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 6100 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 6200 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 6300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 6400 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 6500 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 6600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 6700 60  0001 L CNN "Status"
+	1    14000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N2222 Q11
+U 1 1 6207F13D
+P 14000 6000
+F 0 "Q11" H 14188 6053 60  0000 L CNN
+F 1 "2N2222" H 14188 5947 60  0000 L CNN
+F 2 "digikey-footprints:TO-18-3" H 14200 6200 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 6300 60  0001 L CNN
+F 4 "2N2222CS-ND" H 14200 6400 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N2222" H 14200 6500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 14200 6600 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 14200 6700 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221.PDF" H 14200 6800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N2222/2N2222CS-ND/4806844" H 14200 6900 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.8A TO-18" H 14200 7000 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 14200 7100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14200 7200 60  0001 L CNN "Status"
+	1    14000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 620C3453
+P 14700 3000
+F 0 "R7" V 14493 3000 50  0000 C CNN
+F 1 "330" V 14584 3000 50  0000 C CNN
+F 2 "" V 14630 3000 50  0001 C CNN
+F 3 "~" H 14700 3000 50  0001 C CNN
+	1    14700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 620C3A2C
+P 14700 3500
+F 0 "R8" V 14493 3500 50  0000 C CNN
+F 1 "330" V 14584 3500 50  0000 C CNN
+F 2 "" V 14630 3500 50  0001 C CNN
+F 3 "~" H 14700 3500 50  0001 C CNN
+	1    14700 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 620C3F46
+P 14700 4000
+F 0 "R9" V 14493 4000 50  0000 C CNN
+F 1 "330" V 14584 4000 50  0000 C CNN
+F 2 "" V 14630 4000 50  0001 C CNN
+F 3 "~" H 14700 4000 50  0001 C CNN
+	1    14700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 620C446B
+P 14700 4500
+F 0 "R10" V 14493 4500 50  0000 C CNN
+F 1 "330" V 14584 4500 50  0000 C CNN
+F 2 "" V 14630 4500 50  0001 C CNN
+F 3 "~" H 14700 4500 50  0001 C CNN
+	1    14700 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 620C4A54
+P 14700 5000
+F 0 "R11" V 14493 5000 50  0000 C CNN
+F 1 "330" V 14584 5000 50  0000 C CNN
+F 2 "" V 14630 5000 50  0001 C CNN
+F 3 "~" H 14700 5000 50  0001 C CNN
+	1    14700 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 620C536C
+P 14700 5500
+F 0 "R21" V 14493 5500 50  0000 C CNN
+F 1 "330" V 14584 5500 50  0000 C CNN
+F 2 "" V 14630 5500 50  0001 C CNN
+F 3 "~" H 14700 5500 50  0001 C CNN
+	1    14700 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 620C58B5
+P 14700 6000
+F 0 "R22" V 14493 6000 50  0000 C CNN
+F 1 "330" V 14584 6000 50  0000 C CNN
+F 2 "" V 14630 6000 50  0001 C CNN
+F 3 "~" H 14700 6000 50  0001 C CNN
+	1    14700 6000
+	0    1    1    0   
+$EndComp
+Text Label 13100 5500 0    50   ~ 0
+GPIO9
+Text Label 13100 6000 0    50   ~ 0
+GPIO10
+Wire Wire Line
+	13000 6400 13000 6200
+Wire Wire Line
+	13000 1150 14100 1150
+Wire Wire Line
+	15350 950  15350 1450
+Wire Wire Line
+	15350 1450 15250 1450
+Connection ~ 15350 950 
+$Comp
+L Device:LED D4
+U 1 1 621111C2
+P 15100 2500
+F 0 "D4" H 15093 2245 50  0000 C CNN
+F 1 "LED" H 15093 2336 50  0000 C CNN
+F 2 "" H 15100 2500 50  0001 C CNN
+F 3 "~" H 15100 2500 50  0001 C CNN
+	1    15100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 62111932
+P 15100 3000
+F 0 "D5" H 15093 2745 50  0000 C CNN
+F 1 "LED" H 15093 2836 50  0000 C CNN
+F 2 "" H 15100 3000 50  0001 C CNN
+F 3 "~" H 15100 3000 50  0001 C CNN
+	1    15100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 62112011
+P 15100 3500
+F 0 "D6" H 15093 3245 50  0000 C CNN
+F 1 "LED" H 15093 3336 50  0000 C CNN
+F 2 "" H 15100 3500 50  0001 C CNN
+F 3 "~" H 15100 3500 50  0001 C CNN
+	1    15100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 621126E2
+P 15100 4000
+F 0 "D7" H 15093 3745 50  0000 C CNN
+F 1 "LED" H 15093 3836 50  0000 C CNN
+F 2 "" H 15100 4000 50  0001 C CNN
+F 3 "~" H 15100 4000 50  0001 C CNN
+	1    15100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 62112DB9
+P 15100 4500
+F 0 "D8" H 15093 4245 50  0000 C CNN
+F 1 "LED" H 15093 4336 50  0000 C CNN
+F 2 "" H 15100 4500 50  0001 C CNN
+F 3 "~" H 15100 4500 50  0001 C CNN
+	1    15100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 621135F1
+P 15100 5000
+F 0 "D9" H 15093 4745 50  0000 C CNN
+F 1 "LED" H 15093 4836 50  0000 C CNN
+F 2 "" H 15100 5000 50  0001 C CNN
+F 3 "~" H 15100 5000 50  0001 C CNN
+	1    15100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 62113D42
+P 15100 5500
+F 0 "D10" H 15093 5245 50  0000 C CNN
+F 1 "LED" H 15093 5336 50  0000 C CNN
+F 2 "" H 15100 5500 50  0001 C CNN
+F 3 "~" H 15100 5500 50  0001 C CNN
+	1    15100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 62114438
+P 15100 6000
+F 0 "D11" H 15093 5745 50  0000 C CNN
+F 1 "LED" H 15093 5836 50  0000 C CNN
+F 2 "" H 15100 6000 50  0001 C CNN
+F 3 "~" H 15100 6000 50  0001 C CNN
+	1    15100 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 1450 15350 2000
+Wire Wire Line
+	15350 2000 15250 2000
+Connection ~ 15350 1450
+Wire Wire Line
+	15350 2000 15350 2500
+Wire Wire Line
+	15350 2500 15250 2500
+Connection ~ 15350 2000
+Wire Wire Line
+	15350 2500 15350 3000
+Wire Wire Line
+	15350 3000 15250 3000
+Connection ~ 15350 2500
+Wire Wire Line
+	15350 3000 15350 3500
+Wire Wire Line
+	15350 3500 15250 3500
+Connection ~ 15350 3000
+Wire Wire Line
+	15350 3500 15350 4000
+Wire Wire Line
+	15350 4000 15250 4000
+Connection ~ 15350 3500
+Wire Wire Line
+	15350 4000 15350 4500
+Wire Wire Line
+	15350 4500 15250 4500
+Connection ~ 15350 4000
+Wire Wire Line
+	15350 4500 15350 5000
+Wire Wire Line
+	15350 5000 15250 5000
+Connection ~ 15350 4500
+Wire Wire Line
+	15350 5000 15350 5500
+Wire Wire Line
+	15350 5500 15250 5500
+Connection ~ 15350 5000
+Wire Wire Line
+	15350 5500 15350 6000
+Wire Wire Line
+	15350 6000 15250 6000
+Connection ~ 15350 5500
+Wire Wire Line
+	14950 6000 14850 6000
+Wire Wire Line
+	14950 5500 14850 5500
+Wire Wire Line
+	14950 5000 14850 5000
+Wire Wire Line
+	14950 4500 14850 4500
+Wire Wire Line
+	14950 4000 14850 4000
+Wire Wire Line
+	14950 3500 14850 3500
+Wire Wire Line
+	14850 3000 14950 3000
+Wire Wire Line
+	14950 2500 14850 2500
+Wire Wire Line
+	14950 2000 14850 2000
+Wire Wire Line
+	14950 1450 14850 1450
+Wire Wire Line
+	14550 1450 14550 1250
+Wire Wire Line
+	14550 1250 14100 1250
+Wire Wire Line
+	14550 2000 14550 1800
+Wire Wire Line
+	14550 1800 14100 1800
+Wire Wire Line
+	14550 2500 14550 2300
+Wire Wire Line
+	14550 2300 14100 2300
+Wire Wire Line
+	14550 3000 14550 2800
+Wire Wire Line
+	14550 2800 14100 2800
+Wire Wire Line
+	14550 3500 14550 3300
+Wire Wire Line
+	14550 3300 14100 3300
+Wire Wire Line
+	14550 4000 14550 3800
+Wire Wire Line
+	14550 3800 14100 3800
+Wire Wire Line
+	14550 4500 14550 4300
+Wire Wire Line
+	14550 4300 14100 4300
+Wire Wire Line
+	14550 5000 14550 4800
+Wire Wire Line
+	14550 4800 14100 4800
+Wire Wire Line
+	14550 5500 14550 5300
+Wire Wire Line
+	14550 5300 14100 5300
+Wire Wire Line
+	14550 6000 14550 5800
+Wire Wire Line
+	14550 5800 14100 5800
+Wire Wire Line
+	14100 6200 13000 6200
+Connection ~ 13000 6200
+Wire Wire Line
+	13000 6200 13000 5700
+Wire Wire Line
+	14100 5700 13000 5700
+Connection ~ 13000 5700
+Wire Wire Line
+	13000 5700 13000 5200
+Wire Wire Line
+	14100 5200 13000 5200
+Connection ~ 13000 5200
+Wire Wire Line
+	13000 5200 13000 4700
+Wire Wire Line
+	14100 4700 13000 4700
+Connection ~ 13000 4700
+Wire Wire Line
+	13000 4700 13000 4200
+Wire Wire Line
+	14100 4200 13000 4200
+Connection ~ 13000 4200
+Wire Wire Line
+	13000 4200 13000 3700
+Wire Wire Line
+	14100 3700 13000 3700
+Connection ~ 13000 3700
+Wire Wire Line
+	13000 3700 13000 3200
+Wire Wire Line
+	14100 3200 13000 3200
+Connection ~ 13000 3200
+Wire Wire Line
+	13000 3200 13000 2700
+Wire Wire Line
+	14100 2700 13000 2700
+Connection ~ 13000 2700
+Wire Wire Line
+	13000 2700 13000 2200
+Wire Wire Line
+	14100 2200 13000 2200
+Connection ~ 13000 2200
+Wire Wire Line
+	13000 2200 13000 1650
+Wire Wire Line
+	14100 1650 13000 1650
+Connection ~ 13000 1650
+Wire Wire Line
+	13000 1650 13000 1150
+$Comp
+L Device:R R24
+U 1 1 62B9164B
+P 13550 1450
+F 0 "R24" V 13343 1450 50  0000 C CNN
+F 1 "6.6k" V 13434 1450 50  0000 C CNN
+F 2 "" V 13480 1450 50  0001 C CNN
+F 3 "~" H 13550 1450 50  0001 C CNN
+	1    13550 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 62B94FD4
+P 13550 950
+F 0 "R23" V 13343 950 50  0000 C CNN
+F 1 "6.6k" V 13434 950 50  0000 C CNN
+F 2 "" V 13480 950 50  0001 C CNN
+F 3 "~" H 13550 950 50  0001 C CNN
+	1    13550 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 62B954E0
+P 13550 2000
+F 0 "R25" V 13343 2000 50  0000 C CNN
+F 1 "6.6k" V 13434 2000 50  0000 C CNN
+F 2 "" V 13480 2000 50  0001 C CNN
+F 3 "~" H 13550 2000 50  0001 C CNN
+	1    13550 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 62B959CF
+P 13550 2500
+F 0 "R26" V 13343 2500 50  0000 C CNN
+F 1 "6.6k" V 13434 2500 50  0000 C CNN
+F 2 "" V 13480 2500 50  0001 C CNN
+F 3 "~" H 13550 2500 50  0001 C CNN
+	1    13550 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 62B95EDF
+P 13550 3000
+F 0 "R27" V 13343 3000 50  0000 C CNN
+F 1 "6.6k" V 13434 3000 50  0000 C CNN
+F 2 "" V 13480 3000 50  0001 C CNN
+F 3 "~" H 13550 3000 50  0001 C CNN
+	1    13550 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 62B96439
+P 13550 3500
+F 0 "R28" V 13343 3500 50  0000 C CNN
+F 1 "6.6k" V 13434 3500 50  0000 C CNN
+F 2 "" V 13480 3500 50  0001 C CNN
+F 3 "~" H 13550 3500 50  0001 C CNN
+	1    13550 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 62B971F1
+P 13550 4000
+F 0 "R29" V 13343 4000 50  0000 C CNN
+F 1 "6.6k" V 13434 4000 50  0000 C CNN
+F 2 "" V 13480 4000 50  0001 C CNN
+F 3 "~" H 13550 4000 50  0001 C CNN
+	1    13550 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 62B977C6
+P 13550 4500
+F 0 "R30" V 13343 4500 50  0000 C CNN
+F 1 "6.6k" V 13434 4500 50  0000 C CNN
+F 2 "" V 13480 4500 50  0001 C CNN
+F 3 "~" H 13550 4500 50  0001 C CNN
+	1    13550 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 62B97D44
+P 13550 5000
+F 0 "R31" V 13343 5000 50  0000 C CNN
+F 1 "6.6k" V 13434 5000 50  0000 C CNN
+F 2 "" V 13480 5000 50  0001 C CNN
+F 3 "~" H 13550 5000 50  0001 C CNN
+	1    13550 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 62B982FD
+P 13550 5500
+F 0 "R32" V 13343 5500 50  0000 C CNN
+F 1 "6.6k" V 13434 5500 50  0000 C CNN
+F 2 "" V 13480 5500 50  0001 C CNN
+F 3 "~" H 13550 5500 50  0001 C CNN
+	1    13550 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 62B988BD
+P 13550 6000
+F 0 "R33" V 13343 6000 50  0000 C CNN
+F 1 "6.6k" V 13434 6000 50  0000 C CNN
+F 2 "" V 13480 6000 50  0001 C CNN
+F 3 "~" H 13550 6000 50  0001 C CNN
+	1    13550 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13100 6000 13400 6000
+Wire Wire Line
+	13700 6000 13800 6000
+Wire Wire Line
+	13100 5500 13400 5500
+Wire Wire Line
+	13700 5500 13800 5500
+Wire Wire Line
+	13100 5000 13400 5000
+Wire Wire Line
+	13100 4500 13400 4500
+Wire Wire Line
+	13100 4000 13400 4000
+Wire Wire Line
+	13100 3500 13400 3500
+Wire Wire Line
+	13400 3000 13100 3000
+Wire Wire Line
+	13100 2500 13400 2500
+Wire Wire Line
+	13100 2000 13400 2000
+Wire Wire Line
+	13100 950  13400 950 
+Wire Wire Line
+	13800 950  13700 950 
+Wire Wire Line
+	13700 1450 13800 1450
+Wire Wire Line
+	13700 2000 13800 2000
+Wire Wire Line
+	13700 2500 13800 2500
+Wire Wire Line
+	13700 3000 13800 3000
+Wire Wire Line
+	13700 3500 13800 3500
+Wire Wire Line
+	13700 4000 13800 4000
+Wire Wire Line
+	13700 4500 13800 4500
 $EndSCHEMATC
